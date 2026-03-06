@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    themes.xml — Thème Android de base (requis par le Manifest).
+    Notre vrai thème visuel est défini dans le code Compose (Theme.kt).
+    Ici on indique juste à Android que c'est un thème sans ActionBar
+    (puisque Compose gère sa propre TopAppBar).
+-->
+<resources>
+    <style name="Theme.GradeCalculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- NoActionBar = pas de barre du haut native Android (Compose s'en charge) -->
+    </style>
+</resources>
